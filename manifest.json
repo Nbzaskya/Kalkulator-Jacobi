@@ -1,7 +1,9 @@
 {
+  "id": "/Kalkulator-Jacobi/",
   "name": "Kalkulator Jacobi",
   "short_name": "Jacobi",
-  "start_url": "/",
+  "start_url": "/Kalkulator-Jacobi/",
+  "scope": "/Kalkulator-Jacobi/",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#BF592B",
@@ -11,11 +13,13 @@
       "src": "icon-192.png",
       "sizes": "192x192",
       "type": "image/png"
+      "purpose": "any"
     },
     {
       "src": "icon-512.png",
       "sizes": "512x512",
       "type": "image/png"
+      "purpose": "any"
     }
   ]
 }
