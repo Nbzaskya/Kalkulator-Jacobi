@@ -1041,7 +1041,7 @@
       function renderTable(iters, vn, dec, tol) {
         var h = '<table class="iter-table"><tr><th>Iter (k)</th>';
         for (var i = 0; i < vn.length; i++)
-          h += "<th>" + vn[i] + "<sup>(k)</sup></th>";
+          h += "<th>" + vn[i] + "<sup>(k+1)</sup></th>";
         for (var i = 0; i < vn.length; i++)
           h += "<th>|&Delta;" + vn[i] + "|</th>";
         h += "<th>Error Maks</th><th>Status</th></tr>";
